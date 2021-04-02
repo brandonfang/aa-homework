@@ -17,12 +17,3 @@ class Stack
         @stack.last
     end
 end
-
-s = Stack.new
-p s
-p s.push("hello")
-p s.push(4)
-p s.push(false)
-p s.push([1,2,3,4])
-p s.pop
-p s.peek
